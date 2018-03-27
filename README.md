@@ -22,3 +22,10 @@ npm run e2e
 
 # run all tests
 npm test
+ 
+需要 稍微改一下 webpack配置
+webpack .base.conf.js
+entry: {
+app:'./src/main.js',
+home:'./src/home.js'
+}
